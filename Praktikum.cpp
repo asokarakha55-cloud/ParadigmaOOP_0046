@@ -7,5 +7,7 @@ public:
     string nama;
     int jumlah;
     string kategori;
-    float tanggalProduksi;
+    float TanggalProduksi;
+
+    void printdata()
 };
