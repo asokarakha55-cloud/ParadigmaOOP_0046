@@ -7,7 +7,7 @@ public:
     string nama;
     int jumlah;
     string kategori;
-    float TanggalProduksi;
+    string TanggalProduksi;
 
     void printdata()
     {
@@ -17,3 +17,21 @@ public:
         cout << "Tanggal Produksi :" << TanggalProduksi << endl;
     }
 };
+
+int main()
+{
+    Barang elektronik;
+    elektronik.nama = "Laptop";
+    elektronik.jumlah = 10;
+    elektronik.kategori = "Elektronik";
+    elektronik.TanggalProduksi = "2023.05";
+    elektronik.printdata();
+    cout << endl;
+
+    Barang Non;
+    Non.nama = "Buku";
+    Non.jumlah = 20;
+    Non.kategori = "Non Elektronik";
+    Non.TanggalProduksi = "2023.06";
+    Non.printdata();
+}
