@@ -18,4 +18,5 @@ public:
 
 int main()
 {
+    Mahasiswa mhs;
 }
