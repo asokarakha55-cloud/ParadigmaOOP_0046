@@ -10,4 +10,10 @@ public:
     float TanggalProduksi;
 
     void printdata()
+    {
+        cout << "Nama Barang :" << nama << endl;
+        cout << "Jumlah :" << jumlah << endl;
+        cout << "Kategori :" << kategori << endl;
+        cout << "Tanggal Produksi :" << TanggalProduksi << endl;
+    }
 };
