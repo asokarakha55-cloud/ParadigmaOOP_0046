@@ -21,4 +21,5 @@ int main()
     Mahasiswa mhs;
     mhs.nim = 2022;
     mhs.nama = "abra";
+    mhs.nilai = 90.5;
 }
